@@ -1,0 +1,38 @@
+#nav{
+  width: 90%;
+  margin: 0 auto;
+  padding-top:10px;
+  border-bottom: 1px solid gray;
+}
+li{
+  display: inline-block;
+}
+.page-link{
+  float: right;
+  margin-right: 20px;
+}
+.page-link a{
+  text-decoration: none;
+  color:black;
+}
+.page-link a:hover {
+  color: blue;
+}
+#home {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Platin_Drums_PTCL2016_AF.jpg/250px-Platin_Drums_PTCL2016_AF.jpg");
+  background-size: cover;
+  background: rgba(0, 0, 0, 0.1);
+}
+#company-name{
+font-size: 32px;
+}
+td{
+padding:50px;
+}
+.g:hover{
+  background-color: blue;
+  color: green;
+}
+#date{
+  background-color: red;
+}
