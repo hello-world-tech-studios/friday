@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title></title>
-  <link rel="stylesheet" type="text/css" href="picture.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="script.js"></script>
-</head>
-<body>
-  <h1>Merchandise</h1>
+  <head>
+    <!-- These three meta needed for bootstrap -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My Pics</title>
+
+    <!-- Bootstrap CSS file -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Your Stylesheet -->
+    <link href="picture.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <!-- 👇 Put Your HTML Here 👇 -->
+    <h1>Picture Gallery</h1>
     <div id="boxHold">
       <div class="pictureBoxes" id="Box1"><img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/5QRAJXVGU1.jpg"/></div>
       <div class="pictureBoxes" id="Box2"><img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/280h/NVUP160W8A.jpg"></div>
@@ -24,5 +32,14 @@
       <div class="pictureBoxes" id="Box12"><img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/GQ1ZPF01BL.jpg"></div>
       <div id="pictureDisplay"><img id="displayBox" src=""/></div>
     </div>
-</body>
+
+    <!-- 👆 Put Your HTML Here 👆 -->
+
+
+    <!-- Javascript Files -->
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
+
