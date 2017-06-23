@@ -1,0 +1,54 @@
+#nav {
+  width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  li {
+  display: inline-block;
+  }
+  .link {
+    float: right;
+    margin-right: 20px;
+  }
+  .link a {
+    text-decoration: none;
+    color: gray;
+  }
+  .link a:hover {
+    color: blue;
+  }
+  .parallax {
+    background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/M5VXQW4ZLG.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+  }
+  .bio {
+    color: #f93131;
+    font-family: 'Bevan';
+    background-color: rgba(194, 196, 198, 0.2);
+    width: 40%;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 1.1vw;
+    }
+    .pic {
+      height: 20px;
+    }
+    .video {
+      margin: 0 auto; 
+      width: 855px;
+    }
+    .highlights {
+    margin: 0 auto;
+    width: 390px;
+    border: 2px solid black;
+    text-align: center;
+    color: #0927bc;
+    
+    }
