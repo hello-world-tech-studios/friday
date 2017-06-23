@@ -65,17 +65,24 @@ button {
 
 #restPage {
   background-color: rgb(23, 28, 37);
-  height: all;
-  width: all;
+  height: 100%;
+  width: 100%;
 }
 
 #restPage h1  {
   border-left: 2px solid rgb(62, 171, 240);
   margin-top: 0;
-  margin-left: 26%;
+  position: relative;
+  padding-left: 1%;
+  font-weight: 300;
 }
 
-#boxHolder, #restPage h1 {
+#boxHolder {
+  margin: 2% 25%;
+  vertical-align: middle;
+}
+
+#restPage h1 {
   margin: 0 25%;
 }
 
@@ -86,5 +93,64 @@ button {
   display: inline-block;
   height: 33vh;
   width: 15vw;
-  border: 2px solid white;
+  border: .1px solid white;
 }
+
+table {
+  text-align: center;
+  height: 50vh;
+  width: 100%;
+}
+
+th, td {
+  color: white;
+  border-bottom: 1px solid white
+}
+
+.tableHead {
+  background-color: rgb(100,100,100);
+  background-size: 100% 100%;
+  padding: 2% 20px;
+}
+
+.ticketButtons {
+  position: relative;
+  top: 3.25vh;
+  background-color: white;
+  color: gray;
+  border-radius: 0;
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  width: 100%;
+  height: 50%
+}
+
+.ticketButtons:hover {
+  background-color: gray;
+  color: white;
+}
+
+#dateTitle {
+  margin: 1% auto;
+  border-bottom: 2px solid white;
+  width: 20%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
