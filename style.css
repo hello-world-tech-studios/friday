@@ -19,7 +19,7 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-shadow: black 1px 1px 3px;
+  text-shadow: black 2px 2px 3px;
   color: green;
 }
 
@@ -93,4 +93,24 @@ h1{
 
 #topJump{
   text-shadow: black 5px 5px 1px;
+}
+
+#activisionBody{
+  background-image: url("http://i.vimeocdn.com/video/316151721_1280x720.jpg");
+  min-height: 1%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: black 2px 2px 3px;
+  color: red;
+}
+
+#activision{
+  background-image: url("http://image.wikifoundry.com/image/1/-OJnfbtsCfufIjfbT6LIwA36572/GW285H187");
+  min-height: 1%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
