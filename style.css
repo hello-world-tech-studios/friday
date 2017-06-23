@@ -21,6 +21,7 @@ li {
 
 .pageLinks {
   float: right;
+  padding-top: 1%;
 }
 
 .pageLinks a {
