@@ -2,6 +2,7 @@ body {
   background-color: black;
   font-family: 'Lato', sans-serif;
   color: white;
+  margin: 0px;
 }
 
 nav {
@@ -107,6 +108,10 @@ th, td {
   border-bottom: 1px solid white
 }
 
+td {
+  width: 20%;
+}
+
 .tableHead {
   background-color: rgb(100,100,100);
   background-size: 100% 100%;
@@ -115,14 +120,13 @@ th, td {
 
 .ticketButtons {
   position: relative;
-  top: 3.25vh;
   background-color: white;
   color: gray;
   border-radius: 0;
   font-family: lato, sans-serif;
   font-weight: 400;
   width: 100%;
-  height: 50%
+  height: 100%
 }
 
 .ticketButtons:hover {
@@ -137,6 +141,9 @@ th, td {
   text-align: center;
 }
 
+#datePage {
+  background-color: rgb(23, 28, 37);
+}
 
 
 
