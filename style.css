@@ -89,7 +89,12 @@
       }
     #tickets {
       background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/4883O257SN.jpg");
-      height: 1000px;
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    
+      
       }
     .merch {
       color: #1225b5;
@@ -113,8 +118,14 @@
       background: #000;
     }
     .back {
-      background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/HZ4BHM2FSC.jpg")
-    }
+      background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/HZ4BHM2FSC.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      
+             
+      }
 
       
     
