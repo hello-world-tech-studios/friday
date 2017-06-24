@@ -188,3 +188,58 @@ h1{
   background-size: cover;
   text-shadow: black 2px 2px 1px;
 }
+
+#activisionJump{
+  text-shadow: black 5px 5px 2px;
+}
+
+#ubisoftJump{
+  text-shadow: black 5px 5px 2px;
+}
+
+#eaJump{
+  text-shadow: black 5px 5px 2px;
+}
+
+#microsoftJump{
+  text-shadow: black 5px 5px 2px;
+}
+
+.microsoft{
+  color:orange;
+}
+
+.ea{
+  color:aqua;
+}
+
+.ubisoft{
+  color:lime;
+}
+
+.activision{
+  color:white;
+}
+
+#microsoftTable{
+  background-color:rgba(255, 255, 255, .5);
+  color:lime;
+}
+
+#eaTable{
+  background-color:rgba(0, 0, 0, .5);
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
