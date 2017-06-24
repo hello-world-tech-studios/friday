@@ -9,7 +9,7 @@ nav {
   width: 90%;
   margin: 0 auto;
   vertical-align: middle;
-  overflow-y: auto;
+  overflow-y: hidden;
   height: 5%;
 }
 
@@ -36,16 +36,16 @@ li {
 .pageLinks a:hover {
   background-color: gray;
 }
- 
+
 #backgroundImage {
   background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/YRFOETH2F7.jpg");
   width: auto;
-  height: 50vh; 
+  height: 50vh;
   overflow: hidden;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
-} 
+}
 
 #pictureText {
   line-height: 100%;
@@ -145,20 +145,3 @@ td {
 #datePage {
   background-color: rgb(23, 28, 37);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
