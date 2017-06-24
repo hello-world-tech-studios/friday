@@ -1,1 +1,55 @@
+#nav{
+  width:90%;
+  margin:0 auto;
+  padding-top:10px;
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+}
 
+li{
+    display:inline-block;
+}
+ 
+.page-link{
+    float:right;
+    margin-right:20px;
+
+}
+
+body{
+  background:url("https://i.ytimg.com/vi/W-PBFMECvTE/maxresdefault.jpg")no-repeat fixed center;
+}
+
+.page-link a{
+  text-decoration:none;
+  color:black;
+}
+
+#kittyMoustache {
+    position: fixed;
+    top: calc(50% + 150px);
+    left: calc(50% - 210px);
+    width: 250px;
+}
+
+#kittyGlasses {
+    position: fixed;
+    top: calc(50% - 100px);
+    left: calc(50% - 320px);
+    width: 500px;
+}
+
+#kittyHat {
+    position: fixed;
+    top: calc(50% - 600px);
+    left: calc(50% - 360px);
+    width: 500px;
+}
+
+
+
+
+
+.page-link a:hover{
+  color:blue;
+}
