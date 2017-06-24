@@ -148,3 +148,43 @@ h1{
   color: orange;
   text-shadow: black 4px 4px 3px
 }
+
+#eaGames{
+  background-image: url("https://i.ytimg.com/vi/JYr7HBy-mbI/maxresdefault.jpg");
+  min-height: 1%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: black 2px 2px 1px;
+}
+
+#eaBody{
+  background-image: url("https://i.ytimg.com/vi/hCRg4fqNUF8/maxresdefault.jpg");
+  min-height: 1%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: black 2px 2px 1px;
+}
+
+#microsoftBody{
+  background-image: url("http://cdn.wccftech.com/wp-content/uploads/2015/03/Microsoft.png");
+  min-height: 1%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: black 2px 2px 1px;
+}
+
+#microsoftStudios{
+  background-image: url("http://www.twentyoneinc.com/static/images/projects/microsoft-banner.png");
+  min-height: 1%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: black 2px 2px 1px;
+}
