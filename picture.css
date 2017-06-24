@@ -64,9 +64,12 @@ a {
   font-size: 150%;
 }
 
+#storeButton {
+  bottom: 55vh;
+}
+
 a:hover {
   text-decoration: none;
   background-color: gray;
   color: black;
 }
-
