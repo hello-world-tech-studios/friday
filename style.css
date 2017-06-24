@@ -1,6 +1,6 @@
 *{
   text-align:center;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 body{
@@ -113,4 +113,38 @@ h1{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.grayTextshadow{
+  text-shadow: black 3px 3px 2px;
+  color: gray;
+}
+
+#ubisoft{
+  background-image: url("https://yt3.ggpht.com/-WxmGycez9nQ/AAAAAAAAAAI/AAAAAAAAAAA/D9Yqk-vHJY0/s900-c-k-no-mo-rj-c0xffffff/photo.jpg");
+  min-height: 1%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#ubisoftBody{
+  background-image: url("https://cdn.vox-cdn.com/thumbor/H_yMiO-4OWPoyuHyoUBLj8Lxf9g=/0x174:2400x1524/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/55035911/ubisoft_new_2017_logo_2400.0.jpg");
+  min-height: 1%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: black 2px 2px 1px;
+}
+
+#ubisoftTable{
+  color: yellow;
+}
+
+#ubisoftColor{
+  color: orange;
+  text-shadow: black 4px 4px 3px
 }
