@@ -95,7 +95,7 @@ img{
 }
 
 
-#storeButton:hover, #buyButton:hover {
+#storeButton:hover, #buyButton:hover, #backButton:hover {
   text-decoration: none;
   background-color: gray;
   color: black;
