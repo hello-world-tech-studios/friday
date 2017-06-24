@@ -84,12 +84,38 @@
       width: 50px;
       text-align: center;
       float: middle;
+      background-color: blue;
+      color: white;
       }
     #tickets {
       background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/4883O257SN.jpg");
       height: 1000px;
       }
-    
+    .merch {
+      color: #1225b5;
+      border: 2px solid black;
+      text-align: center;
+      font-family: 'Crete Round';
+      background-color: #e20b0b;
+      text-shadow: 1px 1px white;
+      margin: 20px auto;
+      width: 50%;
+      }
+    .third {
+      text-align: center;
+      width: 33%;
+      color: white;
+      font-size: 18pt;
+      float: left;
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+    .third p {
+      background: #000;
+    }
+    .back {
+      background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/HZ4BHM2FSC.jpg")
+    }
+
       
     
 
